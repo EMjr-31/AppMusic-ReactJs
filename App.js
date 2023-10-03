@@ -1,20 +1,37 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View,  } from 'react-native';
+import ListadoAlmunes from './assets/src/components/ListadoAlmunes';
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      <ScrollView>
+      <View style={styles.container}>
+        <View style={styles.Encabezado}>
+          <Text style={styles.Titulo}>App Music</Text>
+        </View>
+        <ListadoAlmunes genero={"Pop"}/>
+        <ListadoAlmunes genero={"Rock"}/>
+        <ListadoAlmunes genero={"Rap"}/>
+      </View> 
+      </ScrollView>
+    </>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#24293d',
+  },
+  Encabezado:{
     alignItems: 'center',
     justifyContent: 'center',
-  },
+    height:50,
+  }, 
+  Titulo:{
+    color:'white',
+    fontSize:20,
+  }
 });
