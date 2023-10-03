@@ -1,9 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
-import { ScrollView, StyleSheet, Text, View,  } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { useState, useEffect } from 'react';
 import ListadoAlmunes from './assets/src/components/ListadoAlmunes';
+import albumes from './assets/src/data/albumes.json';
 
 
 export default function App() {
+
+  const generos=Object.keys(albumes.generos);
+
   return (
     <>
       <ScrollView>
@@ -11,9 +16,10 @@ export default function App() {
         <View style={styles.Encabezado}>
           <Text style={styles.Titulo}>App Music</Text>
         </View>
-        <ListadoAlmunes genero={"Pop"}/>
-        <ListadoAlmunes genero={"Rock"}/>
-        <ListadoAlmunes genero={"Rap"}/>
+        {generos.map((genero)=>(
+          <ListadoAlmunes genero={genero.toUpperCase()}/>
+        ))
+        }
       </View> 
       </ScrollView>
     </>

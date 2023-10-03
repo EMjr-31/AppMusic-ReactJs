@@ -3,6 +3,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import CaratulaAlbum from './CaratulaAlbum';
 
 const ListadoAlmunes= ( {genero}) =>{
+  
    return (
     <View style={styles.ListaGeneros}>
           <View style={styles.ListaGeneros_titulo}>

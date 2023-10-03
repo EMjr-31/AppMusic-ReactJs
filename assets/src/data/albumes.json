@@ -1,0 +1,207 @@
+{
+    "generos": {
+      "pop": [
+        {
+          "id": 1,
+          "nombre": "Thriller",
+          "genero": "Pop",
+          "artista": "Michael Jackson",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Thriller_%28album%29_cover.jpg/220px-Thriller_%28album%29_cover.jpg"
+        },
+        {
+          "id": 2,
+          "nombre": "Rumours",
+          "genero": "Pop",
+          "artista": "Fleetwood Mac",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Rumours_%28album%29_cover.jpg/220px-Rumours_%28album%29_cover.jpg"
+        },
+        {
+          "id": 3,
+          "nombre": "Like a Virgin",
+          "genero": "Pop",
+          "artista": "Madonna",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Madonna_-_Like_a_Virgin_album_cover.jpg/220px-Madonna_-_Like_a_Virgin_album_cover.jpg"
+        },
+        {
+          "id": 4,
+          "nombre": "Born to Die",
+          "genero": "Pop",
+          "artista": "Lana Del Rey",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Born_to_Die_%28album%29_cover.jpg/220px-Born_to_Die_%28album%29_cover.jpg"
+        },
+        {
+          "id": 5,
+          "nombre": "25",
+          "genero": "Pop",
+          "artista": "Adele",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Adele_-_25_album_cover.jpg/220px-Adele_-_25_album_cover.jpg"
+        },
+        {
+          "id": 6,
+          "nombre": "1989",
+          "genero": "Pop",
+          "artista": "Taylor Swift",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Taylor_Swift_-_1989_album_cover.jpg/220px-Taylor_Swift_-_1989_album_cover.jpg"
+        },
+        {
+          "id": 7,
+          "nombre": "Ctrl",
+          "genero": "Pop",
+          "artista": "SZA",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Ctrl_%28album%29_cover.jpg/220px-Ctrl_%28album%29_cover.jpg"
+        },
+        {
+          "id": 8,
+          "nombre": "Folklore",
+          "genero": "Pop",
+          "artista": "Taylor Swift",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Taylor_Swift_-_Folklore_album_cover.jpg/220px-Taylor_Swift_-_Folklore_album_cover.jpg"
+        },
+        {
+          "id": 9,
+          "nombre": "Harry's House",
+          "genero": "Pop",
+          "artista": "Harry Styles",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/Harry%27s_House_%28album%29_cover.jpg/220px-Harry%27s_House_%28album%29_cover.jpg"
+        },
+        {
+          "id": 10,
+          "nombre": "Ctrl",
+          "genero": "Pop",
+          "artista": "SZA",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Ctrl_%28album%29_cover.jpg/220px-Ctrl_%28album%29_cover.jpg"
+            }
+    ],
+    "rock": [
+        {
+          "id": 1,
+          "nombre": "Appetite for Destruction",
+          "genero": "Rock",
+          "artista": "Guns N' Roses",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Appetite_for_Destruction_album_cover.jpg/220px-Appetite_for_Destruction_album_cover.jpg"
+        },
+        {
+          "id": 2,
+          "nombre": "The Dark Side of the Moon",
+          "genero": "Rock",
+          "artista": "Pink Floyd",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Dark_Side_of_the_Moon_%28album%29_cover.jpg/220px-Dark_Side_of_the_Moon_%28album%29_cover.jpg"
+        },
+        {
+          "id": 3,
+          "nombre": "Sgt. Pepper's Lonely Hearts Club Band",
+          "genero": "Rock",
+          "artista": "The Beatles",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Sgt._Pepper%27s_Lonely_Hearts_Club_Band_%28album%29_cover.jpg/220px-Sgt._Pepper%27s_Lonely_Hearts_Club_Band_%28album%29_cover.jpg"
+        },
+        {
+          "id": 4,
+          "nombre": "Rubber Soul",
+          "genero": "Rock",
+          "artista": "The Beatles",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Rubber_Soul_album_cover.jpg/220px-Rubber_Soul_album_cover.jpg"
+        },
+        {
+          "id": 5,
+          "nombre": "Highway 61 Revisited",
+          "genero": "Rock",
+          "artista": "Bob Dylan",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Highway_61_Revisited_album_cover.jpg/220px-Highway_61_Revisited_album_cover.jpg"
+        },
+        {
+          "id": 6,
+          "nombre": "Nevermind",
+          "genero": "Rock",
+          "artista": "Nirvana",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Nevermind_album_cover.jpg/220px-Nevermind_album_cover.jpg"
+        },
+        {
+          "id": 7,
+          "nombre": "London Calling",
+          "genero": "Rock",
+          "artista": "The Clash",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/London_Calling_album_cover.jpg/220px-London_Calling_album_cover.jpg"
+        },
+        {
+          "id": 8,
+          "nombre": "Master of Puppets",
+          "genero": "Rock",
+          "artista": "Metallica",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/Master_of_Puppets_album_cover.jpg/220px-Master_of_Puppets_album_cover.jpg"
+        },
+        {
+          "id": 9,
+          "nombre": "Bleach",
+          "genero": "Rock",
+          "artista": "Nirvana",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Bleach_album_cover.jpg/220px-Bleach_album_cover.jpg"
+        }
+      ],
+    "rap": [
+        {
+          "id": 1,
+          "nombre": "Enter the Wu-Tang (36 Chambers)",
+          "genero": "Rap",
+          "artista": "Wu-Tang Clan",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Enter_the_Wu-Tang_(36_Chambers)_album_cover.jpg/220px-Enter_the_Wu-Tang_(36_Chambers)_album_cover.jpg"
+        },
+        {
+          "id": 2,
+          "nombre": "The Chronic",
+          "genero": "Rap",
+          "artista": "Dr. Dre",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/The_Chronic_album_cover.jpg/220px-The_Chronic_album_cover.jpg"
+        },
+        {
+          "id": 3,
+          "nombre": "Illmatic",
+          "genero": "Rap",
+          "artista": "Nas",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Illmatic_album_cover.jpg/220px-Illmatic_album_cover.jpg"
+        },
+        {
+          "id": 4,
+          "nombre": "Ready to Die",
+          "genero": "Rap",
+          "artista": "The Notorious B.I.G.",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Ready_to_Die_album_cover.jpg/220px-Ready_to_Die_album_cover.jpg"
+        },
+        {
+          "id": 5,
+          "nombre": "The Low End Theory",
+          "genero": "Rap",
+          "artista": "A Tribe Called Quest",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/The_Low_End_Theory_album_cover.jpg/220px-The_Low_End_Theory_album_cover.jpg"
+        },
+        {
+          "id": 6,
+          "nombre": "Straight Outta Compton",
+          "genero": "Rap",
+          "artista": "N.W.A.",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Straight_Outta_Compton_album_cover.jpg/220px-Straight_Outta_Compton_album_cover.jpg"
+        },
+        {
+          "id": 7,
+          "nombre": "De La Soul Is Dead",
+          "genero": "Rap",
+          "artista": "De La Soul",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/De_La_Soul_Is_Dead_album_cover.jpg/220px-De_La_Soul_Is_Dead_album_cover.jpg"
+        },
+        {
+          "id": 8,
+          "nombre": "The Miseducation of Lauryn Hill",
+          "genero": "Rap",
+          "artista": "Lauryn Hill",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/The_Miseducation_of_Lauryn_Hill_album_cover.jpg/220px-The_Miseducation_of_Lauryn_Hill_album_cover.jpg"
+        },
+        {
+          "id": 9,
+          "nombre": "ATLiens",
+          "genero": "Rap",
+          "artista": "Outkast",
+          "caratula": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/ATLiens_album_cover.jpg/220px-ATLiens_album_cover.jpg"
+        }
+      ]
+    }
+  }
+  
