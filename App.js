@@ -17,7 +17,7 @@ export default function App() {
           <Text style={styles.Titulo}>App Music</Text>
         </View>
         {generos.map((genero)=>(
-          <ListadoAlmunes genero={genero.toUpperCase()}/>
+          <ListadoAlmunes genero={genero}/>
         ))
         }
       </View> 
