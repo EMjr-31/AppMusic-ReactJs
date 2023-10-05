@@ -1,0 +1,49 @@
+{
+    "canciones": [
+      {
+        "id": 1,
+        "nombre": "Wanna Be Startin' Somethin'",
+        "duracion": "4:09"
+      },
+      {
+        "id": 2,
+        "nombre": "Baby Be Mine",
+        "duracion": "4:17"
+      },
+      {
+        "id": 3,
+        "nombre": "The Girl Is Mine",
+        "duracion": "4:31"
+      },
+      {
+        "id": 4,
+        "nombre": "Thriller",
+        "duracion": "5:57"
+      },
+      {
+        "id": 5,
+        "nombre": "Beat It",
+        "duracion": "4:11"
+      },
+      {
+        "id": 6,
+        "nombre": "Billie Jean",
+        "duracion": "4:55"
+      },
+      {
+        "id": 7,
+        "nombre": "Human Nature",
+        "duracion": "4:05"
+      },
+      {
+        "id": 8,
+        "nombre": "P.Y.T. (Pretty Young Thing)",
+        "duracion": "3:58"
+      },
+      {
+        "id": 9,
+        "nombre": "The Lady in My Life",
+        "duracion": "5:06"
+      }
+    ]
+  }
