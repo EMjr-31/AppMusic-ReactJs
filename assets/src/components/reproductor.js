@@ -56,8 +56,8 @@ const Reproductor =()=>{
                 <Image source={{ uri: "https://images.coveralia.com/audio/m/Michael_Jackson-Thriller-Frontal.jpg" }} style={styles.album_caratula_img}/>
               </View>
             <View style={styles.album_desc}>
-              <Text style={styles.album_desc_cancion}>Cancion</Text>
-              <Text style={styles.album_desc_artista}>Artista</Text>
+              <Text style={styles.album_desc_cancion}>Thriller</Text>
+              <Text style={styles.album_desc_artista}>Michael Jackson   </Text>
             </View>
           </View>
           <View style={styles.container_reproductor}>

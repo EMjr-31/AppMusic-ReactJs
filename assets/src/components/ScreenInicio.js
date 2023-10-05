@@ -4,18 +4,15 @@ import { useState, useEffect } from 'react';
 import ListadoAlmunes from './ListadoAlmunes';
 import albumes from '../data/albumes.json';
 
-const PantallaInicial = () => {
+const PantallaInicial = ({navigation}) => {
   const generos=Object.keys(albumes.generos);
 
   return (
     <>
       <ScrollView>
       <View style={styles.container}>
-        <View style={styles.Encabezado}>
-          <Text style={styles.Titulo}>App Music</Text>
-        </View>
         {generos.map((genero)=>(
-          <ListadoAlmunes genero={genero}/>
+          <ListadoAlmunes genero={genero} navigation={navigation}/>
         ))
         }
       </View> 

@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { ImageBackground, ScrollView, StyleSheet, Text, View, Image } from 'react-native';
+import { ImageBackground, ScrollView, StyleSheet, Text, View, Image , TouchableHighlight} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome'; 
 
 

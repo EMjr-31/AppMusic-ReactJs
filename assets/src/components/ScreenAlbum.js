@@ -1,9 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
-import { ImageBackground, ScrollView, StyleSheet, Text, View, Image } from 'react-native';
+import { ImageBackground, ScrollView, StyleSheet, Text, View, Image, TouchableHighlight } from 'react-native';
 import canciones from '../data/canciones.json';
 import Cancion from './cancion';
 
-const PantallaAlbum= () => {
+
+const PantallaAlbum= ({ navigation }) => {
   return (
     <>
     <ScrollView>
@@ -23,7 +24,11 @@ const PantallaAlbum= () => {
 
         <View style={styles.listadoCanciones}>
         {canciones.canciones.map((cancion)=>(
-             <Cancion nombreCancion={cancion.nombre} duracion={cancion.duracion}/>
+          <TouchableHighlight   onPress={() => navigation.navigate('Cancion')}>
+
+            <Cancion nombreCancion={cancion.nombre} duracion={cancion.duracion} />
+          </TouchableHighlight>
+             
           ))} 
         </View>
      </View>
